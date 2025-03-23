@@ -42,7 +42,7 @@ public class MessageController {
         return message;
     }
 
-//  ИЗМЕНЕНИЕ ПО(ID)
+    //  ОБНОВЛЕНИЕПО ПАРАМЕТРУ(ID)
 
     @PutMapping("/message/{id}")
     public ResponseEntity<Message> updateMessage(@PathVariable int id, @RequestBody Message message) {
